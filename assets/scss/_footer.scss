@@ -1,5 +1,5 @@
 .footer-area{
-    .footer-tittle{
+    .footer-title{
         h4{
             color: #ffffff;
             font-size: 20px;
@@ -9,10 +9,10 @@
         }
         ul{
             li{
-                color: #868c98;
+                color: white;
                 margin-bottom: 16px;
                 a{
-                    color: #868c98;
+                    color: white;
                     font-weight: 300;
                     &:hover{
                         color: $theme-color;
@@ -21,7 +21,7 @@
                    
                 }
                 p{
-                    color: #868c98;
+                    color: white;
                     font-weight: 300;
                 }
             }
@@ -30,7 +30,7 @@
 
     .footer-pera{
         p{
-            color:#868c98;
+            color:white;
             padding-right: 52px;
             @media #{$md}{
                 padding-right: 0px;
@@ -47,7 +47,7 @@
         }
     }
     // Footer bottom Tittle
-    .footer-tittle-bottom {
+    .footer-title-bottom {
         span{
             display: inline-block;
             color: #fff;
@@ -105,7 +105,7 @@
     }
     .footer-copy-right{
         p{
-            color: #888888;
+            color: white;
             font-weight: 300;
             font-size: 16px;
             line-height: 2;
@@ -138,7 +138,7 @@
             float: left;
 		}
         & > a{
-            color: #7b8693;
+            color: white;
             font-size: 14px;
             padding-left: 25px;
             & > i {
@@ -161,5 +161,19 @@
                 color: $theme-color;
             }
          }
+    }
+}
+
+.footer-style {
+    background-color: #45A945;
+    .social-link{
+        display: flex;
+        align-items: center;
+        i{
+            width: 24px;  /* adjust as needed */
+        }
+        span{
+            margin-left: 10px; /* adjust as needed */
+        }
     }
 }

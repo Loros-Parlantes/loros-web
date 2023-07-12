@@ -2705,8 +2705,13 @@ hr {
   color: #45A945;
 }
 
+.footer-logo h2 {
+  font-family: "Iskra";
+  color: white;
+}
+
 .slider-height {
-  height: 920px;
+  height: 700px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-height {
@@ -2788,6 +2793,11 @@ hr {
     font-size: 35px;
     line-height: 1.2;
   }
+}
+.slider-area .hero__caption a.btn {
+  background: #267B26;
+  font-family: "Iskra";
+  font-size: larger;
 }
 .slider-area .hero__caption span {
   font-size: 18px;
@@ -2877,6 +2887,15 @@ hr {
   .slider-area2 .hero-cap h2 {
     font-size: 35px;
   }
+}
+
+.logo-title-container {
+  display: grid;
+  grid-template-columns: 1fr fit-content(70px);
+  align-items: center;
+}
+.logo-title-container h2 {
+  text-align: center;
 }
 
 .about-low-area {
@@ -3639,31 +3658,31 @@ hr {
   color: #f05510;
 }
 
-.footer-area .footer-tittle h4 {
+.footer-area .footer-title h4 {
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 29px;
   font-weight: 400;
   text-transform: capitalize;
 }
-.footer-area .footer-tittle ul li {
-  color: #868c98;
+.footer-area .footer-title ul li {
+  color: white;
   margin-bottom: 16px;
 }
-.footer-area .footer-tittle ul li a {
-  color: #868c98;
+.footer-area .footer-title ul li a {
+  color: white;
   font-weight: 300;
 }
-.footer-area .footer-tittle ul li a:hover {
+.footer-area .footer-title ul li a:hover {
   color: #45A945;
   padding-left: 5px;
 }
-.footer-area .footer-tittle ul li p {
-  color: #868c98;
+.footer-area .footer-title ul li p {
+  color: white;
   font-weight: 300;
 }
 .footer-area .footer-pera p {
-  color: #868c98;
+  color: white;
   padding-right: 52px;
   font-size: 16px;
   margin-bottom: 50px;
@@ -3677,7 +3696,7 @@ hr {
 .footer-area .footer-pera.footer-pera2 p {
   padding: 0;
 }
-.footer-area .footer-tittle-bottom span {
+.footer-area .footer-title-bottom span {
   display: inline-block;
   color: #fff;
   font-weight: 600;
@@ -3685,11 +3704,11 @@ hr {
   margin-right: 11px;
 }
 @media (max-width: 575px) {
-  .footer-area .footer-tittle-bottom span {
+  .footer-area .footer-title-bottom span {
     font-size: 20px;
   }
 }
-.footer-area .footer-tittle-bottom p {
+.footer-area .footer-title-bottom p {
   display: inline-block;
   color: #fff;
 }
@@ -3727,7 +3746,7 @@ hr {
   padding: 33px 0px 20px;
 }
 .footer-bottom-area .footer-copy-right p {
-  color: #888888;
+  color: white;
   font-weight: 300;
   font-size: 16px;
   line-height: 2;
@@ -3763,7 +3782,7 @@ hr {
   }
 }
 .footer-bottom-area .footer-social > a {
-  color: #7b8693;
+  color: white;
   font-size: 14px;
   padding-left: 25px;
 }
@@ -3784,6 +3803,20 @@ hr {
 }
 .footer-bottom-area .footer-social > a:hover {
   color: #45A945;
+}
+
+.footer-style {
+  background-color: #45A945;
+}
+.footer-style .social-link {
+  display: flex;
+  align-items: center;
+}
+.footer-style .social-link i {
+  width: 24px; /* adjust as needed */
+}
+.footer-style .social-link span {
+  margin-left: 10px; /* adjust as needed */
 }
 
 .home-blog-area {
@@ -6264,13 +6297,3 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
-
-.logo-title-container {
-  display: grid;
-  grid-template-columns: 1fr fit-content(70px);
-  align-items: center;
-}
-
-.logo-title-container h2 {
-  text-align: center;
-}

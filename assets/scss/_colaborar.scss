@@ -1,0 +1,9 @@
+.logo-title-container {
+    display: grid;
+    grid-template-columns: 1fr fit-content(70px);
+    align-items: center;
+    h2{
+        text-align: center;
+    }
+}
+  

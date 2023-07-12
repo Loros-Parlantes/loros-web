@@ -1,6 +1,6 @@
 // Main Slider Height
 .slider-height {
-    height: 920px;
+    height: 700px;
     @media #{$lg}{
         height: 700px;
     }
@@ -62,6 +62,11 @@
                 line-height: 1.2;
             }
         }
+         a.btn{
+            background: #267B26;
+            font-family: "Iskra";
+            font-size: larger;
+         }
          span{
             font-size: 18px;
             line-height: 1.2;
