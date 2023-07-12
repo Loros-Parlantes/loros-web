@@ -6264,3 +6264,13 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
+
+.logo-title-container {
+  display: grid;
+  grid-template-columns: 1fr fit-content(70px);
+  align-items: center;
+}
+
+.logo-title-container h2 {
+  text-align: center;
+}
