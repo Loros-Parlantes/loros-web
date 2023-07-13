@@ -25,12 +25,11 @@
 
 -------------------------------------------------
 */
-@import url(//db.onlinewebfonts.com/c/2111f7d4b53c115e872c6151b09af646?family=Iskra);
 @import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap");
 @font-face {
   font-family: "Iskra";
-  src: url("//db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot");
-  src: url("//db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff") format("woff"), url("//db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.svg#Iskra") format("svg");
+  src: url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff") format("woff"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.svg#Iskra") format("svg"); /* iOS 4.1- */
 }
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
@@ -2755,7 +2754,7 @@ hr {
 }
 
 .slider-area {
-  background-image: url(../img/hero/balon_loros.png);
+  background-image: url(../img/hero/balon_loros.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
