@@ -6,4 +6,9 @@
         text-align: center;
     }
 }
-  
+
+.mercadopago {
+    width: 100%; /* Set the width to 100% and remove the height */
+    max-width: 100%; /* Ensure it doesn't stretch beyond its container */
+    height: auto; /* Keep aspect ratio */
+}
