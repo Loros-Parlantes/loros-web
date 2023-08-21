@@ -28,8 +28,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap");
 @font-face {
   font-family: "Iskra";
-  src: url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff") format("woff"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.svg#Iskra") format("svg"); /* iOS 4.1- */
+  src: url("https://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.woff") format("woff"), url("https://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.svg#Iskra") format("svg"); /* iOS 4.1- */
 }
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
@@ -293,6 +293,7 @@ ul {
 
 li {
   list-style: none;
+  margin-bottom: 15px;
 }
 
 hr {
@@ -2391,6 +2392,45 @@ hr {
   background-position: center center;
 }
 
+section#mision {
+  padding: 60px 0px;
+  background-color: #45A945;
+  scroll-behavior: smooth;
+  scroll-margin-top: 117px;
+  margin-bottom: 50px;
+  color: black;
+}
+section#mision h2 {
+  text-transform: uppercase;
+}
+section#mision p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: black;
+}
+section#mision .custom-list {
+  padding-left: 20px;
+}
+section#mision .custom-list li {
+  list-style-type: disc;
+}
+
+.responsive-iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+.responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /*-------------   Color Variable  --------------*/
 .white-bg {
   background: #ffffff;
@@ -2895,6 +2935,12 @@ hr {
 }
 .logo-title-container h2 {
   text-align: center;
+}
+
+.mercadopago {
+  width: 100%; /* Set the width to 100% and remove the height */
+  max-width: 100%; /* Ensure it doesn't stretch beyond its container */
+  height: auto; /* Keep aspect ratio */
 }
 
 .about-low-area {
